@@ -1,66 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Kishor Sortur — Product Management, AI/ML and Technical Product Portfolio. Explore product case studies, AI-assisted workflows, engineering experience and research.">
+          content="Kishor Sortur — Product Management, AI/ML and Technical Product Portfolio. Explore product case studies, product analytics, AI-assisted workflows, engineering experience and technical research.">
 
     <meta name="keywords"
-          content="Kishor Sortur, Product Management, APM, Product Analyst, AI Product Management, Product Strategy, AI ML, Technical Product Manager">
+          content="Kishor Sortur, Product Management, APM, Product Analyst, AI Product Management, Product Strategy, Product Discovery, Product Analytics, AI ML, Technical Product Manager">
 
-    <meta name="author" content="Kishor Sortur">
+    <meta name="author"
+          content="Kishor Sortur">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <meta property="og:title"
+          content="Kishor Sortur | Product Management Portfolio">
+
+    <meta property="og:description"
+          content="Product-minded engineer working at the intersection of users, data and technology.">
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:image"
+          content="./profile.jpg">
 
     <title>Kishor Sortur | Product Management Portfolio</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
 </head>
 
+
 <body>
 
 <div class="noise"></div>
-<div class="progress" id="progress"></div>
 
-<!-- =========================
+<div class="progress"
+     id="progress"></div>
+
+
+<!-- =====================================================
      NAVIGATION
-========================= -->
+===================================================== -->
 
 <header class="nav-wrap">
 
     <nav class="nav container">
 
-        <a href="#top" class="brand">
+        <a href="#top"
+           class="brand"
+           aria-label="Kishor Sortur home">
+
             <span>KS</span>
+
             <b>Kishor Sortur</b>
+
         </a>
+
 
         <button class="menu"
                 id="menu"
-                aria-label="Open navigation menu">
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="navLinks"
+                aria-expanded="false">
+
             <i></i>
             <i></i>
+
         </button>
 
-        <div class="nav-links" id="navLinks">
+
+        <div class="nav-links"
+             id="navLinks">
 
             <a href="#work">Work</a>
+
             <a href="#ai">AI Workflow</a>
+
             <a href="#experience">Experience</a>
+
             <a href="#about">About</a>
+
+            <a href="#education">Education</a>
+
             <a href="#contact">Contact</a>
 
+
             <a class="nav-cta"
-               href="Kishor_Sortur_Resume.pdf"
+               href="./resume.pdf"
                target="_blank"
                rel="noopener noreferrer">
+
                 Resume ↗
+
             </a>
 
         </div>
@@ -70,53 +121,75 @@
 </header>
 
 
+
 <main id="top">
 
-<!-- =========================
+
+<!-- =====================================================
      HERO
-========================= -->
+===================================================== -->
 
 <section class="hero container">
 
     <div class="hero-copy reveal">
 
         <div class="eyebrow">
+
             <span class="pulse"></span>
+
             OPEN TO PRODUCT OPPORTUNITIES
+
         </div>
 
+
         <h1>
+
             I turn messy signals into
+
             <em>clear product decisions.</em>
+
         </h1>
+
 
         <p class="hero-sub">
 
             Product-minded engineer working at the intersection of
             <strong>users, data and technology</strong> —
             with experience across AI/ML, embedded systems,
-            enterprise applications and product discovery.
+            enterprise applications, application support and
+            product discovery.
 
         </p>
 
+
         <div class="hero-actions">
 
-            <a class="btn primary" href="#work">
-                Explore my work <span>↓</span>
+            <a class="btn primary"
+               href="#work">
+
+                Explore my work
+
+                <span>↓</span>
+
             </a>
+
 
             <a class="btn ghost"
                href="https://www.linkedin.com/in/kishorsortur"
                target="_blank"
                rel="noopener noreferrer">
+
                 LinkedIn ↗
+
             </a>
 
         </div>
 
+
         <div class="hero-meta">
 
             <span>Bengaluru, India</span>
+
             <span>•</span>
 
             <span>
@@ -128,24 +201,41 @@
     </div>
 
 
+
+    <!-- HERO VISUAL -->
+
     <div class="hero-visual reveal delay-1">
 
         <div class="orb orb-a"></div>
+
         <div class="orb orb-b"></div>
+
 
         <div class="portrait-frame">
 
+            <!--
+                IMPORTANT:
+                profile.jpg must exist in the repository root.
+            -->
+
             <img
-                src="kishor-sortur.jpg"
+                src="./profile.jpg"
                 alt="Kishor Sortur — Product Management and AI professional"
+                loading="eager"
+                decoding="async"
             >
 
+
             <div class="portrait-tag">
+
                 <span class="dot"></span>
+
                 Product + Engineering
+
             </div>
 
         </div>
+
 
         <div class="float-card card-one">
 
@@ -181,9 +271,10 @@
 </section>
 
 
-<!-- =========================
+
+<!-- =====================================================
      SKILLS TICKER
-========================= -->
+===================================================== -->
 
 <section class="ticker">
 
@@ -195,10 +286,13 @@
         <span>RICE PRIORITIZATION</span>
         <b>✦</b>
 
+        <span>PRODUCT ANALYTICS</span>
+        <b>✦</b>
+
         <span>PRD</span>
         <b>✦</b>
 
-        <span>PRODUCT ANALYTICS</span>
+        <span>USER RESEARCH</span>
         <b>✦</b>
 
         <span>AI / ML</span>
@@ -218,11 +312,13 @@
 </section>
 
 
-<!-- =========================
-     PROJECTS
-========================= -->
 
-<section class="section container" id="work">
+<!-- =====================================================
+     SELECTED WORK
+===================================================== -->
+
+<section class="section container"
+         id="work">
 
     <div class="section-head reveal">
 
@@ -232,25 +328,33 @@
                 01 / SELECTED WORK
             </span>
 
+
             <h2>
-                Structured case studies. Visible proof.
+                Structured case studies.
+                Visible proof.
             </h2>
 
         </div>
 
+
         <p>
+
             Each project is structured around the problem,
             evidence, product decision, solution and expected
             outcome — with supporting work available as a PDF.
+
         </p>
 
     </div>
 
 
+
     <div class="work-grid">
 
 
-        <!-- IXIGO -->
+        <!-- =================================================
+             IXIGO
+        ================================================== -->
 
         <article class="project-card featured reveal">
 
@@ -271,38 +375,65 @@
                 Confident Alternatives
             </h3>
 
+
             <p class="project-context">
                 ixigo Trains · Booking Recovery
             </p>
 
+
             <p>
+
                 Investigated why users struggle after their
                 preferred train becomes unavailable and translated
-                research into prioritized product opportunities,
-                features and measurable business impact.
+                user research into prioritized product opportunities,
+                feature concepts and measurable business impact.
+
             </p>
 
 
             <div class="metrics">
 
                 <div>
+
                     <strong>20</strong>
-                    <span>research interactions</span>
+
+                    <span>
+                        research interactions
+                    </span>
+
                 </div>
 
+
                 <div>
+
                     <strong>15</strong>
-                    <span>opportunities prioritized</span>
+
+                    <span>
+                        opportunities prioritized
+                    </span>
+
                 </div>
 
+
                 <div>
+
                     <strong>2</strong>
-                    <span>features designed</span>
+
+                    <span>
+                        features designed
+                    </span>
+
                 </div>
 
+
                 <div>
+
                     <strong>₹38.8 Cr</strong>
-                    <span>modelled annual impact</span>
+
+                    <span>
+                        modelled annual impact
+                    </span>
+
                 </div>
 
             </div>
@@ -311,9 +442,14 @@
             <div class="chips">
 
                 <span>RICE</span>
+
                 <span>User Research</span>
+
                 <span>PRD</span>
+
                 <span>Lovable</span>
+
+                <span>Product Analytics</span>
 
             </div>
 
@@ -321,10 +457,12 @@
             <div class="proof-links">
 
                 <a
-                    href="Kishor_Sortur_Product_Capstone.pdf"
+                    href="./ixigo-case-study.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
+
                     View Case Study PDF ↗
+
                 </a>
 
             </div>
@@ -332,7 +470,10 @@
         </article>
 
 
-        <!-- ZOMATO -->
+
+        <!-- =================================================
+             ZOMATO
+        ================================================== -->
 
         <article class="project-card reveal delay-1">
 
@@ -353,23 +494,33 @@
                 Zomato Retention Strategy
             </h3>
 
+
             <p class="project-context">
                 Funnel + Cohort Analysis
             </p>
 
+
             <p>
+
                 Mapped the food-delivery journey through an
-                8-stage funnel and used cohort analysis to understand
-                retention behaviour and product opportunities.
+                8-stage funnel and used cohort analysis to
+                understand retention behaviour, drop-offs and
+                potential product opportunities.
+
             </p>
 
 
             <div class="chips">
 
                 <span>AARRR</span>
+
                 <span>Funnels</span>
+
                 <span>Cohorts</span>
+
                 <span>North Star</span>
+
+                <span>Retention</span>
 
             </div>
 
@@ -377,10 +528,12 @@
             <div class="proof-links">
 
                 <a
-                    href="Zomato_Funnel_Retention_Strategy.pdf"
+                    href="./zomato-case-study.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
+
                     View Case Study PDF ↗
+
                 </a>
 
             </div>
@@ -388,7 +541,10 @@
         </article>
 
 
-        <!-- X -->
+
+        <!-- =================================================
+             X
+        ================================================== -->
 
         <article class="project-card reveal delay-2">
 
@@ -409,22 +565,31 @@
                 X Growth Roadmap
             </h3>
 
+
             <p class="project-context">
                 AARRR + Growth Epics + RICE
             </p>
 
+
             <p>
+
                 Structured product-growth opportunities into
                 strategic epics and applied RICE prioritization
-                to create a focused product roadmap.
+                to create a focused product roadmap aligned
+                with growth objectives.
+
             </p>
 
 
             <div class="chips">
 
                 <span>AARRR</span>
+
                 <span>RICE</span>
+
                 <span>Roadmapping</span>
+
+                <span>Growth Strategy</span>
 
             </div>
 
@@ -432,10 +597,12 @@
             <div class="proof-links">
 
                 <a
-                    href="X_AARRR_Funnel_RICE.pdf"
+                    href="./x-growth-case-study.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
+
                     View Case Study PDF ↗
+
                 </a>
 
             </div>
@@ -443,7 +610,10 @@
         </article>
 
 
-        <!-- VITAFIT -->
+
+        <!-- =================================================
+             VITAFIT
+        ================================================== -->
 
         <article class="project-card reveal">
 
@@ -464,22 +634,31 @@
                 VitaFit Checkout Experience
             </h3>
 
+
             <p class="project-context">
                 UX Audit + Product Requirements
             </p>
 
+
             <p>
+
                 Evaluated a checkout experience using Nielsen's
                 usability heuristics and translated usability
-                findings into product requirements.
+                findings into product requirements and
+                actionable UX improvements.
+
             </p>
 
 
             <div class="chips">
 
                 <span>UX Research</span>
+
                 <span>Nielsen Heuristics</span>
+
                 <span>PRD</span>
+
+                <span>UX Evaluation</span>
 
             </div>
 
@@ -487,10 +666,12 @@
             <div class="proof-links">
 
                 <a
-                    href="VitaFit_Presentation%20%281%29.pdf"
+                    href="./vitafit-case-study.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
+
                     View Case Study PDF ↗
+
                 </a>
 
             </div>
@@ -498,7 +679,10 @@
         </article>
 
 
-        <!-- EDTECH -->
+
+        <!-- =================================================
+             EDTECH
+        ================================================== -->
 
         <article class="project-card reveal delay-1">
 
@@ -519,22 +703,29 @@
                 EdTech Recommendation System
             </h3>
 
+
             <p class="project-context">
                 Personalization + Privacy
             </p>
 
+
             <p>
+
                 Designed a multi-persona recommendation experience
                 with product requirements, non-functional requirements
                 and explicit personalization-versus-privacy trade-offs.
+
             </p>
 
 
             <div class="chips">
 
                 <span>AI Product</span>
+
                 <span>Personas</span>
+
                 <span>NFRs</span>
+
                 <span>Recommendation Systems</span>
 
             </div>
@@ -543,10 +734,12 @@
             <div class="proof-links">
 
                 <a
-                    href="Tech101_Learning_Recommendation_System%20%281%29.pdf"
+                    href="./edtech-recommendation-case-study.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
+
                     View Case Study PDF ↗
+
                 </a>
 
             </div>
@@ -554,7 +747,10 @@
         </article>
 
 
-        <!-- NDN -->
+
+        <!-- =================================================
+             NDN
+        ================================================== -->
 
         <article class="project-card technical reveal delay-2">
 
@@ -575,24 +771,33 @@
                 NDN Threat Detection
             </h3>
 
+
             <p class="project-context">
                 Federated + Continual Learning
             </p>
 
+
             <p>
+
                 M.Tech research focused on detecting collusive
                 and non-collusive Interest Flooding Attacks in
                 Named Data Networking using machine learning,
                 federated learning and continual learning.
+
             </p>
 
 
             <div class="chips">
 
                 <span>NDN</span>
+
                 <span>Federated Learning</span>
+
                 <span>Continual Learning</span>
+
                 <span>PyTorch</span>
+
+                <span>Python</span>
 
             </div>
 
@@ -600,10 +805,12 @@
             <div class="proof-links">
 
                 <a
-                    href="06_ndn_threat_detection.pdf"
+                    href="./ndn-threat-detection.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
+
                     View Research PDF ↗
+
                 </a>
 
             </div>
@@ -616,9 +823,10 @@
 </section>
 
 
-<!-- =========================
+
+<!-- =====================================================
      IMPACT
-========================= -->
+===================================================== -->
 
 <section class="impact-band">
 
@@ -629,6 +837,7 @@
             <span class="section-kicker">
                 02 / IMPACT SNAPSHOT
             </span>
+
 
             <h2>
                 Evidence from engineering,
@@ -676,11 +885,13 @@
 </section>
 
 
-<!-- =========================
-     AI WORKFLOW
-========================= -->
 
-<section class="section alt" id="ai">
+<!-- =====================================================
+     AI WORKFLOW
+===================================================== -->
+
+<section class="section alt"
+         id="ai">
 
     <div class="container ai-grid">
 
@@ -690,10 +901,12 @@
                 03 / AI-ASSISTED PRODUCT WORKFLOW
             </span>
 
+
             <h2>
                 AI accelerates the work.
                 Product judgment stays human.
             </h2>
+
 
             <p class="lead">
 
@@ -711,11 +924,14 @@
         <div class="ai-cards reveal delay-1">
 
 
+            <!-- CHATGPT -->
+
             <div class="ai-card">
 
                 <span class="ai-num">
                     01
                 </span>
+
 
                 <div>
 
@@ -723,16 +939,23 @@
                         ChatGPT
                     </h3>
 
+
                     <p>
+
                         Used for brainstorming, hypothesis exploration,
                         research synthesis, PRD structuring,
-                        alternative framing and critique.
+                        alternative framing, critique and
+                        structured problem solving.
+
                     </p>
 
                 </div>
 
             </div>
 
+
+
+            <!-- LOVABLE -->
 
             <div class="ai-card">
 
@@ -740,17 +963,21 @@
                     02
                 </span>
 
+
                 <div>
 
                     <h3>
                         Lovable
                     </h3>
 
+
                     <p>
+
                         Used for rapid AI-assisted prototyping and
                         iteration during the ixigo product capstone,
                         turning product requirements into an
                         interactive experience.
+
                     </p>
 
                 </div>
@@ -758,11 +985,15 @@
             </div>
 
 
+
+            <!-- HUMAN VALIDATION -->
+
             <div class="ai-card">
 
                 <span class="ai-num">
                     03
                 </span>
+
 
                 <div>
 
@@ -770,11 +1001,14 @@
                         Human Validation
                     </h3>
 
+
                     <p>
+
                         AI outputs are treated as drafts.
                         Product decisions are validated against
                         user research, metrics, feasibility,
                         privacy and product objectives.
+
                     </p>
 
                 </div>
@@ -789,11 +1023,13 @@
 </section>
 
 
-<!-- =========================
-     EXPERIENCE
-========================= -->
 
-<section class="section container" id="experience">
+<!-- =====================================================
+     EXPERIENCE
+===================================================== -->
+
+<section class="section container"
+         id="experience">
 
     <div class="section-head reveal">
 
@@ -803,19 +1039,24 @@
                 04 / EXPERIENCE
             </span>
 
+
             <h2>
                 From systems to product.
             </h2>
 
         </div>
 
+
         <p>
+
             Experience across engineering, application support,
             AI/ML and DevOps shaped an evidence-first approach
             to solving problems.
+
         </p>
 
     </div>
+
 
 
     <div class="timeline">
@@ -823,32 +1064,51 @@
         <div class="timeline-line"></div>
 
 
+
+        <!-- CAZE LABS -->
+
         <article class="timeline-item reveal">
 
             <div class="timeline-dot"></div>
+
 
             <div class="time">
                 NOV 2025 — JAN 2026
             </div>
 
+
             <h3>
+
                 Caze Labs
-                <span>AI / DevOps Intern</span>
+
+                <span>
+                    AI / DevOps Intern
+                </span>
+
             </h3>
 
+
             <p>
+
                 Analyzed recurring application failures using
                 Python-based tooling and translated technical
                 signals into actionable fixes. Worked with
                 Jenkins, Docker and SonarQube quality gates
                 across CI/CD workflows.
+
             </p>
+
 
             <div class="chips">
 
                 <span>Python</span>
+
                 <span>CI/CD</span>
+
                 <span>Docker</span>
+
+                <span>Jenkins</span>
+
                 <span>Problem Analysis</span>
 
             </div>
@@ -856,32 +1116,53 @@
         </article>
 
 
+
+        <!-- ACCENTURE -->
+
         <article class="timeline-item reveal">
 
             <div class="timeline-dot"></div>
+
 
             <div class="time">
                 JUL 2024 — JAN 2025
             </div>
 
+
             <h3>
+
                 Accenture
-                <span>Application Support Engineer</span>
+
+                <span>
+                    Application Support Engineer
+                </span>
+
             </h3>
 
+
             <p>
+
                 Worked on P1/P2 production incidents,
                 root-cause analysis and enterprise application
                 support. Used SQL and Python across Oracle,
                 Tableau and ERP systems while supporting
-                application reliability.
+                application reliability and stakeholder needs.
+
             </p>
+
 
             <div class="chips">
 
                 <span>SQL</span>
+
                 <span>Python</span>
+
+                <span>Oracle</span>
+
+                <span>Tableau</span>
+
                 <span>Incident Analysis</span>
+
                 <span>Stakeholders</span>
 
             </div>
@@ -889,47 +1170,69 @@
         </article>
 
 
+
+        <!-- HARMAN -->
+
         <article class="timeline-item reveal">
 
             <div class="timeline-dot"></div>
+
 
             <div class="time">
                 MAY 2022 — MAY 2023
             </div>
 
+
             <h3>
+
                 HARMAN India
-                <span>Associate Software Engineer</span>
+
+                <span>
+                    Associate Software Engineer
+                </span>
+
             </h3>
 
+
             <p>
+
                 Worked on embedded software validation,
                 Python and C/C++ automation and an ML-based
                 predictive-maintenance pipeline for
                 embedded systems.
+
             </p>
+
 
             <div class="chips">
 
                 <span>Machine Learning</span>
+
                 <span>C/C++</span>
+
                 <span>STM32</span>
+
+                <span>Python</span>
+
                 <span>Validation</span>
 
             </div>
 
         </article>
 
+
     </div>
 
 </section>
 
 
-<!-- =========================
-     ABOUT / THINKING
-========================= -->
 
-<section class="section alt" id="about">
+<!-- =====================================================
+     HOW I THINK
+===================================================== -->
+
+<section class="section alt"
+         id="about">
 
     <div class="container about-grid">
 
@@ -940,10 +1243,12 @@
                 05 / HOW I THINK
             </span>
 
+
             <h2>
                 I don't start with the solution.
                 I start with the signal.
             </h2>
+
 
             <p class="lead">
 
@@ -956,9 +1261,13 @@
             </p>
 
 
+
+            <!-- PRINCIPLE 1 -->
+
             <div class="principle">
 
                 <span>01</span>
+
 
                 <div>
 
@@ -966,9 +1275,12 @@
                         Find the signal
                     </strong>
 
+
                     <p>
+
                         Separate symptoms from the underlying
                         user or business problem.
+
                     </p>
 
                 </div>
@@ -976,9 +1288,13 @@
             </div>
 
 
+
+            <!-- PRINCIPLE 2 -->
+
             <div class="principle">
 
                 <span>02</span>
+
 
                 <div>
 
@@ -986,9 +1302,12 @@
                         Make the trade-off explicit
                     </strong>
 
+
                     <p>
+
                         Prioritize using evidence, reach,
                         impact, confidence and effort.
+
                     </p>
 
                 </div>
@@ -996,9 +1315,13 @@
             </div>
 
 
+
+            <!-- PRINCIPLE 3 -->
+
             <div class="principle">
 
                 <span>03</span>
+
 
                 <div>
 
@@ -1006,9 +1329,12 @@
                         Ship something defensible
                     </strong>
 
+
                     <p>
+
                         Define success and guardrails before
                         declaring the work done.
+
                     </p>
 
                 </div>
@@ -1018,6 +1344,9 @@
         </div>
 
 
+
+        <!-- TOOLKIT -->
+
         <div class="skills-panel reveal delay-1">
 
             <span class="section-kicker">
@@ -1025,29 +1354,47 @@
             </span>
 
 
+
+            <!-- PRODUCT -->
+
             <div class="skill-group">
 
                 <h4>
                     PRODUCT
                 </h4>
 
+
                 <div class="skill-cloud">
 
                     <span>Product Discovery</span>
+
                     <span>User Research</span>
+
                     <span>RICE</span>
+
                     <span>PRDs</span>
+
                     <span>AARRR</span>
+
                     <span>Funnel Analysis</span>
+
                     <span>Cohort Analysis</span>
+
                     <span>North Star Metrics</span>
+
                     <span>UX Evaluation</span>
+
                     <span>Product Strategy</span>
+
+                    <span>Roadmapping</span>
 
                 </div>
 
             </div>
 
+
+
+            <!-- TECHNICAL -->
 
             <div class="skill-group">
 
@@ -1055,23 +1402,38 @@
                     TECHNICAL
                 </h4>
 
+
                 <div class="skill-cloud">
 
                     <span>Python</span>
+
                     <span>SQL</span>
+
                     <span>C++</span>
+
                     <span>TensorFlow</span>
+
                     <span>PyTorch</span>
+
                     <span>Docker</span>
+
                     <span>CI/CD</span>
+
                     <span>AWS</span>
+
                     <span>GCP</span>
+
                     <span>REST APIs</span>
+
+                    <span>Machine Learning</span>
 
                 </div>
 
             </div>
 
+
+
+            <!-- AI TOOLS -->
 
             <div class="skill-group">
 
@@ -1079,11 +1441,15 @@
                     AI TOOLS
                 </h4>
 
+
                 <div class="skill-cloud">
 
                     <span>ChatGPT</span>
+
                     <span>Lovable</span>
+
                     <span>AI-assisted prototyping</span>
+
                     <span>AI-assisted research synthesis</span>
 
                 </div>
@@ -1097,11 +1463,13 @@
 </section>
 
 
-<!-- =========================
-     EDUCATION
-========================= -->
 
-<section class="section container" id="education">
+<!-- =====================================================
+     EDUCATION
+===================================================== -->
+
+<section class="section container"
+         id="education">
 
     <div class="section-head reveal">
 
@@ -1110,6 +1478,7 @@
             <span class="section-kicker">
                 06 / EDUCATION
             </span>
+
 
             <h2>
                 Learning by building.
@@ -1120,8 +1489,11 @@
     </div>
 
 
+
     <div class="edu-grid">
 
+
+        <!-- MTECH -->
 
         <article class="edu-card reveal">
 
@@ -1129,9 +1501,11 @@
                 2024 — 2026
             </span>
 
+
             <h3>
                 Ramaiah Institute of Technology
             </h3>
+
 
             <p>
                 M.Tech · Computer Network Technology
@@ -1140,15 +1514,20 @@
         </article>
 
 
+
+        <!-- BE -->
+
         <article class="edu-card reveal delay-1">
 
             <span>
                 2019 — 2022
             </span>
 
+
             <h3>
                 Savitribai Phule Pune University
             </h3>
+
 
             <p>
                 B.E. · Electronics & Telecommunication
@@ -1157,15 +1536,20 @@
         </article>
 
 
+
+        <!-- DIPLOMA -->
+
         <article class="edu-card reveal delay-2">
 
             <span>
                 2016 — 2019
             </span>
 
+
             <h3>
                 PCET's Pimpri Chinchwad College of Engineering
             </h3>
+
 
             <p>
                 Diploma · Engineering
@@ -1177,19 +1561,25 @@
     </div>
 
 
+
+    <!-- CERTIFICATIONS -->
+
     <div class="cert-row reveal">
 
         <span>
             AI-Powered Product Management · Airtribe
         </span>
 
+
         <span>
             AWS Cloud Practitioner Essentials · AWS
         </span>
 
+
         <span>
             TensorFlow for AI/ML · Coursera
         </span>
+
 
         <span>
             Python for Data Science · NPTEL
@@ -1200,11 +1590,13 @@
 </section>
 
 
-<!-- =========================
-     CONTACT
-========================= -->
 
-<section class="section contact-section" id="contact">
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="section contact-section"
+         id="contact">
 
     <div class="container contact-box reveal">
 
@@ -1214,43 +1606,63 @@
                 07 / LET'S CONNECT
             </span>
 
+
             <h2>
                 Have a product problem worth solving?
             </h2>
 
+
             <p>
+
                 I'm exploring APM, Product Analyst,
                 Product Management Internship and
                 Technical Product Management opportunities.
+
             </p>
 
         </div>
 
 
+
         <div class="contact-actions">
+
+
+            <!-- EMAIL -->
 
             <a
                 class="btn primary"
                 href="mailto:kvsortur@gmail.com">
+
                 Email me ↗
+
             </a>
 
+
+
+            <!-- LINKEDIN -->
 
             <a
                 class="btn ghost"
                 href="https://www.linkedin.com/in/kishorsortur"
                 target="_blank"
                 rel="noopener noreferrer">
+
                 LinkedIn ↗
+
             </a>
 
+
+
+            <!-- GITHUB -->
 
             <a
                 class="btn ghost"
                 href="https://github.com/KishorSortur"
                 target="_blank"
                 rel="noopener noreferrer">
+
                 GitHub ↗
+
             </a>
 
         </div>
@@ -1259,121 +1671,340 @@
 
 </section>
 
+
 </main>
 
 
-<!-- =========================
+
+<!-- =====================================================
      FOOTER
-========================= -->
+===================================================== -->
 
 <footer class="footer container">
 
     <span>
-        © <span id="year"></span> Kishor Sortur
+
+        © <span id="year"></span>
+        Kishor Sortur
+
     </span>
+
 
     <span>
+
         Product · AI/ML · Technical Products
+
     </span>
 
+
     <a href="#top">
+
         Back to top ↑
+
     </a>
 
 </footer>
 
 
-<script src="script.js"></script>
+
+<!-- =====================================================
+     EXISTING SCRIPT
+===================================================== -->
+
+<script src="./script.js"></script>
+
+
+
+<!-- =====================================================
+     PORTFOLIO FUNCTIONALITY
+===================================================== -->
 
 <script>
 
     /*
-     * Small compatibility layer.
-     * Keeps the portfolio functional even if the existing
-     * script.js does not contain these utilities.
+     * =====================================================
+     * CURRENT YEAR
+     * =====================================================
      */
 
-    document.getElementById("year").textContent =
-        new Date().getFullYear();
+    const yearElement =
+        document.getElementById("year");
 
-    const progress =
-        document.getElementById("progress");
+    if (yearElement) {
 
-    window.addEventListener("scroll", function () {
-
-        const scrollTop =
-            document.documentElement.scrollTop;
-
-        const scrollHeight =
-            document.documentElement.scrollHeight -
-            document.documentElement.clientHeight;
-
-        const percentage =
-            scrollHeight > 0
-                ? (scrollTop / scrollHeight) * 100
-                : 0;
-
-        if (progress) {
-            progress.style.width = percentage + "%";
-        }
-
-    });
-
-
-    const menu =
-        document.getElementById("menu");
-
-    const navLinks =
-        document.getElementById("navLinks");
-
-    if (menu && navLinks) {
-
-        menu.addEventListener("click", function () {
-
-            navLinks.classList.toggle("open");
-
-        });
+        yearElement.textContent =
+            new Date().getFullYear();
 
     }
 
 
+
     /*
-     * Reveal animations
+     * =====================================================
+     * SCROLL PROGRESS
+     * =====================================================
+     */
+
+    const progress =
+        document.getElementById("progress");
+
+
+    window.addEventListener(
+        "scroll",
+        function () {
+
+            const scrollTop =
+                document.documentElement.scrollTop ||
+                document.body.scrollTop;
+
+
+            const scrollHeight =
+                document.documentElement.scrollHeight -
+                document.documentElement.clientHeight;
+
+
+            const percentage =
+                scrollHeight > 0
+                    ? (scrollTop / scrollHeight) * 100
+                    : 0;
+
+
+            if (progress) {
+
+                progress.style.width =
+                    percentage + "%";
+
+            }
+
+        },
+        {
+            passive: true
+        }
+    );
+
+
+
+    /*
+     * =====================================================
+     * MOBILE NAVIGATION
+     * =====================================================
+     */
+
+    const menu =
+        document.getElementById("menu");
+
+
+    const navLinks =
+        document.getElementById("navLinks");
+
+
+    if (menu && navLinks) {
+
+        menu.addEventListener(
+            "click",
+            function () {
+
+                const isOpen =
+                    navLinks.classList.toggle("open");
+
+
+                menu.setAttribute(
+                    "aria-expanded",
+                    isOpen ? "true" : "false"
+                );
+
+            }
+        );
+
+
+        /*
+         * Close navigation after clicking a link.
+         */
+
+        navLinks
+            .querySelectorAll("a")
+            .forEach(function (link) {
+
+                link.addEventListener(
+                    "click",
+                    function () {
+
+                        navLinks.classList.remove("open");
+
+                        menu.setAttribute(
+                            "aria-expanded",
+                            "false"
+                        );
+
+                    }
+                );
+
+            });
+
+    }
+
+
+
+    /*
+     * =====================================================
+     * REVEAL ANIMATIONS
+     * =====================================================
      */
 
     const revealElements =
         document.querySelectorAll(".reveal");
 
-    const observer =
-        new IntersectionObserver(
-            function (entries) {
 
-                entries.forEach(function (entry) {
+    if ("IntersectionObserver" in window) {
 
-                    if (entry.isIntersecting) {
+        const observer =
+            new IntersectionObserver(
+                function (entries) {
 
-                        entry.target.classList.add("visible");
+                    entries.forEach(
+                        function (entry) {
 
-                        observer.unobserve(entry.target);
+                            if (entry.isIntersecting) {
 
-                    }
+                                entry.target.classList.add(
+                                    "visible"
+                                );
 
-                });
 
-            },
-            {
-                threshold: 0.12
+                                observer.unobserve(
+                                    entry.target
+                                );
+
+                            }
+
+                        }
+                    );
+
+                },
+                {
+                    threshold: 0.12
+                }
+            );
+
+
+        revealElements.forEach(
+            function (element) {
+
+                observer.observe(element);
+
             }
         );
 
+    } else {
 
-    revealElements.forEach(function (element) {
+        /*
+         * Fallback for older browsers.
+         */
 
-        observer.observe(element);
+        revealElements.forEach(
+            function (element) {
 
-    });
+                element.classList.add("visible");
+
+            }
+        );
+
+    }
+
+
+
+    /*
+     * =====================================================
+     * IMAGE FALLBACK
+     *
+     * If profile.jpg is accidentally missing,
+     * the portrait image is hidden instead of displaying
+     * a broken-image icon.
+     * =====================================================
+     */
+
+    const profileImage =
+        document.querySelector(
+            '.portrait-frame img'
+        );
+
+
+    if (profileImage) {
+
+        profileImage.addEventListener(
+            "error",
+            function () {
+
+                this.style.display = "none";
+
+                this.parentElement.classList.add(
+                    "image-missing"
+                );
+
+            }
+        );
+
+    }
+
+
+
+    /*
+     * =====================================================
+     * SMOOTH INTERNAL NAVIGATION
+     * =====================================================
+     */
+
+    document
+        .querySelectorAll('a[href^="#"]')
+        .forEach(function (anchor) {
+
+            anchor.addEventListener(
+                "click",
+                function (event) {
+
+                    const targetId =
+                        this.getAttribute("href");
+
+
+                    if (
+                        !targetId ||
+                        targetId === "#"
+                    ) {
+
+                        return;
+
+                    }
+
+
+                    const target =
+                        document.querySelector(
+                            targetId
+                        );
+
+
+                    if (target) {
+
+                        event.preventDefault();
+
+
+                        target.scrollIntoView(
+                            {
+                                behavior: "smooth",
+                                block: "start"
+                            }
+                        );
+
+                    }
+
+                }
+            );
+
+        });
 
 </script>
 
+
+
 </body>
+
 </html>
